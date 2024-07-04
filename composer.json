@@ -12,6 +12,6 @@
             "name": "io"
         }
     ],
-    "minimum-stability": "alpha",
+    "minimum-stability": "stable",
     "require": {}
 }
