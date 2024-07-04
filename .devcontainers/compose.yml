@@ -1,0 +1,10 @@
+services:
+  php:
+    build: 
+      context: .
+      dockerfile: php.dockerfile
+    # image: cirolosapio/php-fpm:8.1.27-alpine3.19-composer2.7.2-xdebug3.3.1-magento
+    volumes:
+      - ..:/var/www/html:cached
+      - ~/.ssh:/home/vscode/.ssh:rw
+      - ~/.composer:/home/vscode/.composer:rw

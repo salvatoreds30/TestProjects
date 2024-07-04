@@ -1,0 +1,17 @@
+{
+    "name": "salvatoredi/testextension",
+    "description": "sono un test",
+    "license": "nessuna",
+    "autoload": {
+        "psr-4": {
+            "Salvatoredi\\Testextension\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "io"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
