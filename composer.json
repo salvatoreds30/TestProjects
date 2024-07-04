@@ -1,7 +1,7 @@
 {
     "name": "salvatoredi/testextension",
     "description": "sono un test",
-    "license": "nessuna",
+    "license": "",
     "autoload": {
         "psr-4": {
             "Salvatoredi\\Testextension\\": "src/"
